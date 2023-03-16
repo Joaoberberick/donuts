@@ -6,13 +6,14 @@ body {
 .navbar {
     background-color: rgba(255, 255, 255, 0.6);
     color: rgb(255, 255, 255);
+    width: 100%;
 }
 
 .navbar-content {
-    width: 54%;
-    margin: 0 auto;
+    width: 44.8%;
+    margin-left: 12%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
@@ -112,20 +113,21 @@ footer p {
     transition: all 0.2s ease-in-out;
     z-index: 2;
 }
-  
-.cart-btn:hover {
-    background-color: #ED91AD;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-}
 
 @media (max-width: 768px) {
     
     .navbar-brand{
+        display: flex;
         left: 0;
-        padding-right: 10%;
     }
     .navbar-content{
         width: 100%;
         left: 0;
+        margin-left: 0%;
+    }
+
+    .navbar-toggler{
+        align-items: end;
+        margin-left: 22%;
     }
   }
