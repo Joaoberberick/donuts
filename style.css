@@ -2,6 +2,7 @@ body {
     background-color: #f2f2f2;
     background-image: url("img/donut-background.png");
     font-family: sans-serif;
+    background-repeat: no-repeat;
 }
 
 .content{
